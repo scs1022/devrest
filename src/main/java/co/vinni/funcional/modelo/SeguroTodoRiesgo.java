@@ -11,10 +11,10 @@ import java.util.Date;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Soat implements Serializable{
+public class SeguroTodoRiesgo implements Serializable{
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SOAT_SEQ")
-    @SequenceGenerator(sequenceName = "sq_soat", allocationSize = 1, name = "SOAT_SEQ")
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEGUROTODORIESGO_SEQ")
+    @SequenceGenerator(sequenceName = "sq_segurotodoriesgo", allocationSize = 1, name = "SEGUROTODORIESGO_SEQ")
     private long id;
     private Date vencimiento;
     private boolean vigente;
